@@ -1,0 +1,27 @@
+example
+========================================================
+author: Sriram Sambasivam
+date: 11/16/2017
+autosize: true
+
+A First Plot
+========================================================
+This presentation uses knitr
+
+```{r, echo = FALSE}
+plot(1:20, pch=1:20)
+```
+
+Slide With Code
+========================================================
+
+```{r}
+summary(cars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```

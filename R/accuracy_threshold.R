@@ -1,4 +1,4 @@
-#' Accuracy Threshold - added
+#' Accuracy Threshold
 #'
 #' Returns the best binary threshold rule based on accuracy.
 #' @details Optimizes threshold rule based on misclassification rate (1 - accuracy). Upper rules are defined as greater than \code{cut}, and lower is less than or equal to \code{cut}.
